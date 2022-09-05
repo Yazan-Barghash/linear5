@@ -1,0 +1,102 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background:linear-gradient( to right, aqua , blue) ;
+}
+
+.container form{
+    border: 2px solid white;
+    background-color: rgba(255, 255, 255, 0.301);
+    width: 40%;
+    height: 300px;
+    text-align: center;
+}
+
+.info{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px 0px;
+}
+
+.info input{
+    width: 80%;
+    margin: 10px 0px;
+    padding: 8px;
+}
+
+.buttons{
+}
+
+.buttons a{
+    text-decoration: none;
+    border: 1px solid white;
+    color: white;
+    margin: 0px 10px;
+    padding: 5px 10px;
+    transition: 0.5;
+}
+
+.buttons a:hover{
+    background-color: white;
+    color: black;
+}
+
+
+.forget{
+    padding: 20px 0px;
+}
+
+
+/* home section */
+header{
+    display: flex;
+    justify-content: space-around;
+    box-shadow: 2px 2px 5px black ;
+    align-items: center;
+    padding: 10px 0px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+
+nav a{
+    margin: 10px;
+    text-decoration: none;
+}
+
+.home-page{
+    height: 100vh;
+    background:linear-gradient(to right , red , white) ;
+}
+
+footer{
+    padding: 20px;
+    text-align: center;
+    /* background-color: aqua; */
+    position: fixed;
+    top: 50%;
+    left: 0;
+    width: 5;
+    background-color: aqua;
+}
+
+
+
+/* end home section */
+
+
+
+
+
+
+
+
